@@ -62,9 +62,9 @@ a{
 }
 
 .btndiv2{
+    display: inline-block;
     margin-top: 30px;
-    width: 255px;
-    height: 67px;
+    padding: 20px 40px;
     font-size: 20px;
     letter-spacing: -0.03em;
     color: azure;
