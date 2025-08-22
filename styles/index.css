@@ -1,0 +1,67 @@
+
+body{
+    font-family: 'Manrope';
+}
+
+a{
+    text-decoration: none;
+}
+
+.div1{
+    margin: 25px auto;
+    width: 1150px;
+    height: 650px;
+}
+
+.h1div1{
+    width: 956px;
+    height: 120px;
+    font-size:50px;
+    
+}
+
+.bgdiv1{
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../rsc/Rectangle1.png');
+    background-repeat: no-repeat;
+}
+
+.pbgdiv1{
+    padding-top: 405px;
+    margin-left: 25px;
+    color: azure;
+    font-size: 20px;
+    width: 430px;
+    height: 81px;
+}
+
+.div2{
+    margin: 150px auto;
+    width: 1150px;
+    height: 518px;
+}
+
+.pdiv2{
+    font-size: 16px;
+    width: 51px;
+    height: 25px;
+}
+
+.h2div2{
+    margin-top: 30px;
+    width: 1048px;
+    height: 330px;
+    font-size: 45px;
+}
+
+.btndiv2{
+    margin-top: 30px;
+    width: 255px;
+    height: 67px;
+    font-size: 16px;
+    color: azure;
+    background-color: #AD1818;
+    cursor: pointer;
+}
