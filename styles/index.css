@@ -1,10 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body{
+    scroll-behavior: smooth;
     width: 100%;
     font-family: 'Manrope';
 }
 
 a{
+    letter-spacing: -0.03em;
     text-decoration: none;
 }
 
@@ -147,7 +152,8 @@ p{
     margin: 0% auto;
     margin-top: 150px;
     background-color: #121212;
-    width: 1400px;
+    width: 100%;
+    min-width: 1400px;
     height: 1844px;
 }
 
@@ -156,10 +162,6 @@ p{
     margin: 0% auto;
     width: 1150px;
     height: 315px;
-}
-
-.imgrediv4{
-    padding-top: 34px;
 }
 
 .h3rediv4{
@@ -172,11 +174,13 @@ p{
 .div5{
     position: relative;
     margin: 0% auto;
-    width: 1400px;
+    width: 100%;
+    min-width: 1400px;
     height: 717px;
     background-image: url(../rsc/Rectangle\ 8.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .h3div5{
@@ -187,4 +191,123 @@ p{
     text-align: left;
     left: 125px;
     bottom: 82px;
+}
+
+.section{
+    position: relative;
+    margin: 33px auto;
+    width: 1151.35px;
+}
+
+.logo_link{
+    width: 126.89;
+    height: 21.42px;
+}
+
+.nav_link{
+    position: absolute;
+    width: auto;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.nav_link_active, .nav_link:hover{
+    position: absolute;
+    width: auto;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    text-decoration: underline;
+    color: rgba(18, 18, 18, 0.5);
+}
+
+.div7{
+    width: 100%;
+    min-width: 1400px;
+}
+
+.cont{
+    position: relative;
+    margin-top: 186px;
+    margin-left: 124px;;
+    margin-bottom: 151px;
+    width: 473px;
+    height: 216px;
+}
+
+#Contacts::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -37px;
+    left: -8px;
+    background-image: url(../rsc/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tel{
+    margin-top: 32px;
+    width: 472px;
+    height: 60px;
+}
+
+.contact{
+    color: #121212;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+}
+
+.contact:hover{
+    color: rgba(18, 18, 18, 0.5);
+    text-decoration: underline;
+}
+
+.mail{
+    margin-top: 30px;
+    width: 412px;
+    height: 60px;
+}
+
+.div8{
+    position: relative;
+    width: 100%;
+    min-width: 1400px;
+    height: 229px;
+    background-color: #121212;
+}
+
+.fdiv8{
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 470px;
+    height: 25px;
+}
+
+.fnav, .fnav_active{
+    display: inline-block;
+    padding-right: 53px;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.fnav_active, .fnav:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fp{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 37px;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    letter-spacing: -0.03em;
 }
