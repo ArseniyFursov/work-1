@@ -60,8 +60,8 @@
     }
 
     .img_re_project{
-        min-width: 928px;
-        height: auto;
+        width: 100%;
+        height: 450px;
     }
 
     .h3_re_project{
@@ -78,6 +78,91 @@
     .a_project{
         margin-top: 20px;
         margin-bottom: 100px;
+    }
+
+    #Services{
+        margin-top: 100px;
+    }
+
+    .service{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .p_service{
+        padding-left: 19px;
+        padding-top: 151px;
+    }
+
+    .re_services_boxes{
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .wrep_box{
+        width: 100%;
+    }
+
+    .re_service{
+        width: calc(50% - 5px);
+        height: 363px;
+    }
+
+    .img_re_service{
+        height: 315px;
+        width: 100%;
+        display: block;
+    }
+
+    .h3_re_service{
+        top: 31px;
+        left: 32px;
+        padding: 10px 26px;
+        font-size: 20px;
+    }
+
+    .h2_re_service{
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .mbtn{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .btn_service{
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    #Reviews{
+        margin-top: 117px;
+    }
+
+    .review{
+        padding: 0 15px;
+    }
+
+    .p_review{
+        margin-bottom: 30px;
+        margin-left: 2px;
+    }
+
+    .re_review{
+        width: calc(50% - 5px);
+    }
+
+    .re_review_big{
+        width: 694px;
+    }
+
+    .h2_re_review{
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+    .p_re_review{
+        font-size: 20px;
     }
 }
 
@@ -149,6 +234,7 @@
 
     .img_re_project{
         min-width: 350px;
+        height: 250px;
     }
 
     .h3_re_project{
@@ -166,5 +252,91 @@
         margin-bottom: 80px;
         padding: 37px 0;
         font-size: 22px;
+    }
+
+    #Services{
+        margin-top: 80px;
+    }
+
+    .service{
+        padding: 0 13px;
+    }
+
+    .p_service{
+    padding-left: 16px;
+    padding-top: 80px;
+    font-size: 14px;
+    }
+
+    .re_services_boxes{
+        margin-bottom: 60px
+    }
+
+    .wrep_box{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: left;
+        row-gap: 60px;
+    }
+
+    .re_service{
+        width: 100%;
+        height: 274px;
+    }
+
+    .img_re_service{
+        width: 100%;
+        height: 240px;
+    }
+
+    .h3_re_service{
+        top: 23px;
+        left: 24px;
+        padding: 5px 23px;
+        font-size: 14px;
+    }
+
+    .h2_re_service{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .mbtn{
+        padding: 0 13px;
+    }
+
+    #Reviews{
+        margin-top: 80px;
+    }
+
+    .review{
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .p_review{
+        margin-bottom: 22px;
+        font-size: 14px;
+    }
+
+    .con_review_wrapper{
+        width: 100%;
+    }
+
+    .re_review{
+        width: 100%;
+    }
+
+    .re_review_big{
+        margin-bottom: 80px;
+    }
+
+    .h2_re_review{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .p_re_review{
+        font-size: 16px;
     }
 }
