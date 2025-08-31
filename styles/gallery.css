@@ -1,0 +1,158 @@
+
+#Gallery{
+    margin-top: 157px;
+}
+
+.gallery{
+    position: relative;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.gallery_list{
+    display: flex;
+    position: relative;
+    height: 717px;
+}
+
+.p_gallery{
+    position: absolute;
+    top: 67px;
+    left: 124px;
+    z-index: 100;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.gallery__slide{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery__slide_active{
+    opacity: 1;
+}
+
+.slide_one{
+    background-image: url(../rsc/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.slide_two{
+    background-image: url(../rsc/Group\ 9.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.slide_three{
+    background-image: url(../rsc/Group\ 16.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.slide_four{
+    background-image: url(../rsc/Group\ 17.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.h3_gallery_slide{
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+    width: 443px;
+    color: #FFFFFF;
+}
+
+.wrapper_btn_gallery_slide{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 14pxpx;
+    z-index: 100;
+    position: absolute;
+    bottom: 162px;
+    left: 115px;
+    width: 94px;
+}
+
+.btn_gallery_slide{
+    width: calc(50% - 7px);
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img_btn{
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+
+    .gallery_list{
+        height: 536px;
+    }
+
+    .p_gallery{
+        font-size: 20px;
+        top: 80px;
+        left: 50px;
+    }
+
+    .h3_gallery_slide{
+        width: 377px;
+        font-size: 25px;
+        bottom: 80px;
+        left: 50px;
+    }
+
+    .wrapper_btn_gallery_slide{
+        bottom: 152px;
+        left: 41px;
+    }
+
+}
+
+@media (max-width: 767) {
+
+    .gallery_list{
+        height: 408px;
+    }
+
+    .p_gallery{
+        top: 61px;
+        left: 12px;
+        font-size: 14px;
+    }
+
+    .h3_gallery_slide{
+        width: 287px;
+        font-size: 19px;
+        bottom: 60px;
+        left: 13px;
+    }
+
+    .con_wrapper_btn_gallery_slide{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper_btn_gallery_slide{
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .btn_gallery_slide{
+        width: 30px;
+        height: 30px;
+    }
+
+}

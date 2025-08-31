@@ -1,0 +1,202 @@
+#Services{
+    margin-top: 150px;
+    background-color: #121212;
+}
+
+.service{
+    margin: 0% auto;
+    width: 1400px;
+}
+
+.p_service{
+    padding-top: 150px;
+    padding-left: 127px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    width: 51px;
+    height: 25px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.re_services_boxes{
+    margin: 0% auto;
+    margin-bottom: 103.88px;
+    max-width: 1150px;
+    width: 100%;
+}
+
+.wrep_box {
+    display: flex;
+    flex-wrap: wrap;   /* позволяет элементам переноситься */
+    row-gap: 80px;         /* зазор между плитками */
+    justify-content: space-between; /* распределяет элементы */
+}
+
+.re_service {
+    position: relative;
+    width: calc(50% - 6px);
+    height:452.97px;
+}
+
+.img_re_service {
+    width: 100%;
+    height: 388.03px;
+    object-fit: cover;
+    object-position: 50% 50%;  /* картинка обрезается аккуратно */
+    display: block;
+}
+
+.h3_re_service{
+    position: absolute;
+    padding: 5px 21px;
+    left: 30px;
+    top: 31.51px;
+    line-height: 100%;
+    font-size: 22px;
+    background-color: #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h2_re_service{
+    padding-top: 24.94px;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.mbtn{
+    margin: 0% auto;
+    padding-bottom: 150px;
+    width: 1150px;
+}
+
+.btn_service{
+    width: 1150px;
+    padding: 56px 0;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    border: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+
+    #Services{
+        margin-top: 100px;
+    }
+
+    .service{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .p_service{
+        padding-left: 19px;
+        padding-top: 151px;
+    }
+
+    .re_services_boxes{
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .wrep_box{
+        width: 100%;
+    }
+
+    .re_service{
+        width: calc(50% - 5px);
+        height: 363px;
+    }
+
+    .img_re_service{
+        height: 315px;
+        width: 100%;
+        display: block;
+    }
+
+    .h3_re_service{
+        top: 31px;
+        left: 32px;
+        padding: 10px 26px;
+        font-size: 20px;
+    }
+
+    .h2_re_service{
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .mbtn{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .btn_service{
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #Services{
+        margin-top: 80px;
+    }
+
+    .service{
+        padding: 0 13px;
+    }
+
+    .p_service{
+    padding-left: 16px;
+    padding-top: 80px;
+    font-size: 14px;
+    }
+
+    .re_services_boxes{
+        margin-bottom: 60px
+    }
+
+    .wrep_box{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: left;
+        row-gap: 60px;
+    }
+
+    .re_service{
+        width: 100%;
+        height: 274px;
+    }
+
+    .img_re_service{
+        width: 100%;
+        height: 240px;
+    }
+
+    .h3_re_service{
+        top: 23px;
+        left: 24px;
+        padding: 5px 23px;
+        font-size: 14px;
+    }
+
+    .h2_re_service{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .mbtn{
+        padding: 0 13px;
+    }
+
+}
