@@ -1,0 +1,134 @@
+#Contacts{
+    margin: 0% auto;
+    width: 1400px;
+}
+
+.contact{
+    padding: 150px auto;
+    width: 1150px;
+}
+
+.p_contact{
+    font-size: 18px;
+    color: #121212;
+    width: 51px;
+    height: 25px;
+    letter-spacing: -0.03em;
+}
+
+.contact_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 74px;
+    width: 100%;
+}
+
+.tel{
+    width: calc(50% - 52px);
+}
+
+.phone, .email{
+    position: relative;
+    color: #121212;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3%;
+}
+
+.phone:hover, .email:hover{
+    color: rgba(18, 18, 18, 0.5);
+    text-decoration: underline;
+}
+
+.phone::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -26px;
+    left: -6px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../rsc/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.email::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: -26px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../rsc/mail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1199px) {
+
+    #Contacts{
+        width: 100%;
+    }
+
+    .contact{
+        padding: 120px 16px;
+        width: 100%;
+    }
+
+    .contact_wrapper{
+        width: 100%;
+    }
+
+    .tel{
+        width: calc(50% - 57px);
+    }
+
+    .phone, .email{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+
+    .contact{
+        padding: 80px 13px;
+    }
+
+    .p_contact{
+        font-size: 14px;
+    }
+
+    .contact_wrapper{
+        margin-top: 58px;
+        row-gap: 58px;
+    }
+
+    .tel{
+        width: 100%;
+    }
+
+    .phone, .email{
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .phone::before{
+        top: -20px;
+        left: -2px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .email::before{
+        top: -20px;
+        left: -1px;
+        width: 18px;
+        height: 18px;
+    }
+
+}
