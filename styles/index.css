@@ -37,33 +37,12 @@ p{
     text-align: left;
 }
 
-#tag, #Contacts{
+#tag{
     font-size: 18px;
     color: #121212;
     width: 51px;
     height: 25px;
     letter-spacing: -0.03em;
-}
-
-.full_pict{
-    position: relative;
-    margin: 0% auto;
-    width: 1400px;
-    height: 717px;
-    background-image: url(../rsc/Rectangle\ 8.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.h3_full_pict{
-    position: absolute;
-    color: #FFFFFF;
-    width: 443px;
-    height: 60px;
-    text-align: left;
-    left: 125px;
-    bottom: 82px;
 }
 
 .section{
@@ -92,58 +71,6 @@ p{
     letter-spacing: -0.03em;
     text-decoration: underline;
     color: rgba(18, 18, 18, 0.5);
-}
-
-.div7{
-    margin: 0% auto;
-    width: 1400px;
-}
-
-.cont{
-    position: relative;
-    margin-top: 186px;
-    margin-left: 124px;;
-    margin-bottom: 151px;
-    width: 473px;
-    height: 216px;
-}
-
-#Contacts::after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: -37px;
-    left: -4px;
-    background-image: url(../rsc/contact.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.tel{
-    margin-top: 32px;
-    width: 472px;
-    height: 60px;
-}
-
-.contact{
-    color: #121212;
-    text-decoration: none;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -3%;
-}
-
-.contact:hover{
-    color: rgba(18, 18, 18, 0.5);
-    text-decoration: underline;
-}
-
-.mail{
-    margin-top: 30px;
-    width: 412px;
-    height: 60px;
 }
 
 .fsection{
