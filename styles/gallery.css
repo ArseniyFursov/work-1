@@ -94,6 +94,10 @@
 
 @media (max-width: 1199px) {
 
+    #Gallery{
+        margin-top: 120px;
+    }
+
     .gallery_list{
         height: 536px;
     }
@@ -119,6 +123,10 @@
 }
 
 @media (max-width: 767px) {
+
+    #Gallery{
+        margin-top: 80px;
+    }
 
     .gallery_list{
         height: 408px;

@@ -1,11 +1,11 @@
 #Contacts{
     margin: 0% auto;
-    width: 1400px;
+    max-width: 1400px;
 }
 
 .contact{
     margin: 150px auto;
-    width: 1150px;
+    max-width: 1150px;
 }
 
 .p_contact{
