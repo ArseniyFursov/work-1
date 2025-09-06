@@ -15,20 +15,13 @@
         <link rel="stylesheet" href="styles/gallery.css">
         <link rel="stylesheet" href="styles/contact.css">
         <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/popup.css">
         <link rel="icon" href="rsc/Метрика_icon.png" type="image/png">
         <title>МЕТРИКА</title>
     </head>
     <body>
         <!--Шестой контейнер, часть "Метрика"-->
-        <!-- <div class="section" style="margin-bottom: 70px;">
-            <a href="" class="logo">
-                <img src="rsc/Метрика.png" alt="" class="logo_link">
-            </a>
-            <a href="#Us" class="nav_link_active">О НАС</a>
-            <a href="#Projects" class="nav_link">ПРОЕКТЫ</a>
-            <a href="#Services" class="nav_link">УСЛУГИ</a>
-            <a href="#Contacts" class="nav_link">КОНТАКТЫ</a>
-        </div> -->
+        
         <!--Первый контйнер-->
             <div class="container">
                 <div id="Us" class="us_cont">
@@ -112,9 +105,38 @@
                     </div>
                 </div>
                 <div class="mbtn">
-                    <button class="btn_service">Заказать услугу</button>
+                    <button class="btn_service js-btn">Заказать услугу</button>
                 </div>
-                
+            </div>
+        </div>
+        <div class="popup js-popup">
+            <div class="popup_content js-popup__content">
+                <div class="close_popup">
+                    <div class="close_popup_wrapper">
+                        <button class="btn_close_popup">
+                            <img src="rsc/close_popup.png" alt="Закрыть" class="close_popup_img js-popup__close-btn">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="anketa">
+                    <div class="h2_popup_wrapper">
+                        <h2 class="h2_popup_content">
+                            Заказать услугу
+                        </h2>
+                    </div>
+                    <div class="p_popup_wrapper">
+                        <p class="p_popup_content">
+                            Заполните форму, мы свяжемся с вами в течение суток
+                        </p>
+                    </div>
+                    <input type="text" class="input_popup" placeholder="Имя">
+                    <input type="email" class="input_popup" placeholder="Электронная почта">    
+                    <input type="tel" class="input_popup" placeholder="Номер телефона">
+                </div>
+                <div class="btn_anketa_wrapper">
+                    <button class="btn_anketa">Отправить</button>
+                </div>
             </div>
         </div>
         <!--Часть "Отзывы"-->
@@ -232,5 +254,6 @@
             </div>
         </footer>
         <script src="scripts/gallery.js"></script>
+        <script src="scripts/popup.js"></script>
     </body>
 </html>

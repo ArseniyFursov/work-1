@@ -1,0 +1,195 @@
+
+.popup{
+    position: fixed;
+    display: none;
+    justify-content: center;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup_open{
+    opacity: 1;
+    display: flex;
+}
+
+.body_fixed{
+    overflow: hidden;
+}
+
+.popup_content{
+    position: relative;
+    width: 777px;
+    max-height: 672px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+}
+
+.close_popup{
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.close_popup_wrapper{
+    display: block;
+    position: relative;
+}
+
+.btn_close_popup{
+    display: block;
+    position: absolute;
+    right: 34px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.anketa{
+    display: block;
+    margin: 0 auto;
+    width: 643px;
+}
+
+.h2_popup_wrapper{
+    margin: 0 auto;
+    width: 326px;
+    height: 61px;
+}
+
+.h2_popup_content{
+    height: 61px;
+    line-height: 100%;
+    font-size: 45px;
+}
+
+
+.p_popup_wrapper{
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 60px;
+    width: 445px;
+    height: 24px;
+}
+
+.p_popup_content{
+    height: 24px;
+    line-height: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input_popup{
+    box-sizing: border-box;
+    margin-top: 51px;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.input_popup:focus{
+    outline: none;
+}
+
+.btn_anketa_wrapper{
+    margin: 0 auto;
+    padding-top: 81px;
+    padding-bottom: 86px;
+    width: 644px;
+
+}
+
+.btn_anketa{
+    cursor: pointer;
+    padding: 20px 273px;
+    font-size: 20px;
+    border: none;
+    color: #ffffff;
+    background-color:rgba(173, 24, 24);
+}
+
+@media (max-width: 1199px) {
+
+    .btn_close_popup{
+        right: 44px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .popup{
+        top: 20%;
+        padding: 7px;
+    }
+
+    .close_popup{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+        .btn_close_popup{
+        right: 29px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .anketa{
+        width: 321px;
+    }
+
+    .h2_popup_wrapper{
+        width: 181px;
+        height: 34px;
+    }
+
+    .h2_popup_content{
+        height: 34px;
+        font-size: 25px;
+    }
+
+    .p_popup_wrapper{
+        margin-top: 11px;
+        margin-bottom: 70px;
+        width: 208px;
+        height: 24px;
+    }
+
+    .p_popup_content{
+        font-size: 14zx;
+    }
+
+    .input_popup{
+        margin-top: 41px;
+        font-size: 18px;
+    }
+
+    .input_popup:focus{
+        outline: none;
+    }
+
+    .btn_anketa_wrapper{
+        padding-top: 61px;
+        padding-bottom: 80px;
+        width: 329px;
+    }
+
+    .btn_anketa{
+        padding: 20px 116px;
+        font-size: 20px;
+        background-color:rgba(173, 24, 24);
+    }
+
+}

@@ -2,12 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    scroll-behavior: smooth;
-    width: 100%;
-    font-family: 'Manrope';
-}
-
 a{
     letter-spacing: -0.03em;
     text-decoration: none;
@@ -43,32 +37,4 @@ p{
     width: 51px;
     height: 25px;
     letter-spacing: -0.03em;
-}
-
-.section{
-    position: relative;
-    margin: 33px auto;
-    width: 1151.35px;
-}
-
-.logo_link{
-    width: 126.89;
-    height: 21.42px;
-}
-
-.nav_link{
-    position: absolute;
-    width: auto;
-    font-size: 18px;
-    letter-spacing: -0.03em;
-    color: #121212;
-}
-
-.nav_link_active, .nav_link:hover{
-    position: absolute;
-    width: auto;
-    font-size: 18px;
-    letter-spacing: -0.03em;
-    text-decoration: underline;
-    color: rgba(18, 18, 18, 0.5);
 }
