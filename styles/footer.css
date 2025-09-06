@@ -45,7 +45,9 @@
 @media (max-width: 1199px) {
 
     .footer-inner{
-        margin: 0 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0
     }
 
     .p_footer-inner{
@@ -57,8 +59,9 @@
 @media (max-width: 767px) {
 
     .footer-inner{
-        margin: 0 13px;
         padding-top: 30px;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 
     .footer-inner_nav{
