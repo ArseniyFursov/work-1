@@ -137,6 +137,7 @@
 @media (max-width: 768px) {
 
     .popup{
+        width: 99.99%;
         padding: 7px;
     }
 
