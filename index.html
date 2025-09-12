@@ -16,12 +16,54 @@
         <link rel="stylesheet" href="styles/contact.css">
         <link rel="stylesheet" href="styles/footer.css">
         <link rel="stylesheet" href="styles/popup.css">
+        <link rel="stylesheet" href="styles/burger.css">
         <link rel="icon" href="rsc/Метрика_icon.png" type="image/png">
         <title>МЕТРИКА</title>
     </head>
     <body>
-        <!--Шестой контейнер, часть "Метрика"-->
-        
+        <!--Шестой контейнер, часть "Метрика & Бургер"-->
+        <header id="Header">
+            <div class="header-inner_wrapper">
+                <div class="header-inner">
+                    <div class="logo_wrapper">
+                        <img src="rsc/Метрика.png" alt="Студия 'Метрика'">
+                    </div>
+                    <div class="nav_wrapper">
+                        <nav class="nav">
+                            <a href="#Us" class="nav_link nav_link_active">О НАС</a>
+                            <a href="#Projects" class="nav_link">ПРОЕКТЫ</a>
+                            <a href="#Services" class="nav_link">УСЛУГИ</a>
+                            <a href="#Contacts" class="nav_link">КОНТАКТЫ</a>
+                        </nav>
+                    </div>
+                    <div class="burger_btn_wrapper ">
+                        <button class="burger_btn js-burger-btn"></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="popup_burger js-burger">
+            <div class="popup_burger_content js-burger__content">
+                <div class="anketa_burger">
+                    <div class="logo_wrapper">
+                        <img src="rsc/Метрика.png" alt="" class="img_logo_burger">
+                    </div>
+                    <nav class="nav_burger_wrapper">
+                        <a href="#Us" class="link_burger">О НАС</a>
+                        <a href="#Projects" class="link_burger">ПРОЕКТЫ</a>
+                        <a href="#Services" class="link_burger">УСЛУГИ</a>
+                        <a href="#Contacts" class="link_burger">КОНТАКТЫ</a>
+                    </nav>
+                </div>
+                <div class="relation_wrapper">
+                    <p class="p_burger_relation">Для связи:</p>
+                    <div class="relation_link_wrapper">
+                        <a href="tel:+7 935  895-45-35" class="tel_relation">+7 935  895-45-35</a>
+                        <a href="mailto:hello@mail.com" class="mail_relation">hello@mail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--Первый контйнер-->
             <div class="container">
                 <div id="Us" class="us_cont">
@@ -255,5 +297,6 @@
         </footer>
         <script src="scripts/gallery.js"></script>
         <script src="scripts/popup.js"></script>
+        <script src="scripts/burger.js"></script>
     </body>
 </html>
