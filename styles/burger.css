@@ -175,7 +175,7 @@
 
     .burger_btn{
         position: absolute;
-        width: 100%;
+        width: 50px;
         height: 100%;
         border: none;
         box-shadow: none;
@@ -203,4 +203,9 @@
     .burger_btn_wrapper{
         width: 38px;
     }
+
+    .burger_btn{
+        width: 38px;
+    }
+
 }
