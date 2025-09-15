@@ -35,9 +35,9 @@
 .p_footer-inner{
     display: block;
     margin: 0 auto;
-    padding-top: 87px;
+    padding-top: 97px;
     padding-bottom: 37px;
-    width: 389px;
+    width: 387.44px;
     font-size: 20px;
     color: rgb(255, 255, 255, 0.5);
 }
@@ -47,6 +47,7 @@
     .footer-inner{
         padding-left: 15px;
         padding-right: 15px;
+        padding-top: 63px;
         margin: 0
     }
 

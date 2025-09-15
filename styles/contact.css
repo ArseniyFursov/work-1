@@ -25,7 +25,7 @@
 }
 
 .tel{
-    width: calc(50% - 52px);
+    width: 50%;
 }
 
 .phone, .email{
@@ -46,7 +46,7 @@
     content: '';
     display: block;
     position: absolute;
-    top: -26px;
+    top: -40px;
     left: -6px;
     width: 24px;
     height: 24px;
@@ -59,7 +59,7 @@
     content: '';
     display: block;
     position: absolute;
-    top: -26px;
+    top: -40px;
     width: 24px;
     height: 24px;
     background-image: url(../rsc/mail.png);
@@ -75,7 +75,7 @@
     }
 
     .contact{
-        padding: 120px 15px;
+        padding: 120px 17px;
         width: 100%;
     }
 
@@ -84,12 +84,21 @@
     }
 
     .tel{
-        width: calc(50% - 57px);
+        width: 50%;
     }
 
     .phone, .email{
         font-size: 45px;
         line-height: 60px;
+    }
+
+    .phone::before{
+        top: -53px;
+    }
+
+    .email::before{
+        top: -53px;
+        left: 4px;
     }
     
 }
@@ -99,6 +108,7 @@
 
     .contact{
         padding: 80px 13px;
+        padding-bottom: 74px;
     }
 
     .p_contact{
@@ -106,8 +116,8 @@
     }
 
     .contact_wrapper{
-        margin-top: 58px;
-        row-gap: 58px;
+        margin-top: 43px;
+        row-gap: 46px;
     }
 
     .tel{
@@ -120,14 +130,14 @@
     }
 
     .phone::before{
-        top: -20px;
-        left: -2px;
+        top: -35px;
+        left: -4px;
         width: 18px;
         height: 18px;
     }
 
     .email::before{
-        top: -20px;
+        top: -37px;
         left: -1px;
         width: 18px;
         height: 18px;
