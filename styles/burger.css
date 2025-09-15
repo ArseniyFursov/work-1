@@ -204,8 +204,19 @@
         width: 38px;
     }
 
-    .burger_btn{
-        width: 38px;
+    .logo{
+        height: 16px;
     }
 
+    .logo_wrapper{
+        height: 16px;
+    }
+
+    .header-inner{
+        height: 16px;
+    }
+
+    .header-inner_wrapper{
+        height: 16px;
+    }
 }
